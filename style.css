@@ -1,0 +1,29 @@
+html, body {
+    height: 99%;
+}
+
+body {
+    background-color: #030608;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 128px;
+    color: #e0e0dc;
+
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
